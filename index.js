@@ -18,17 +18,20 @@ const calcy = () => {
     document.getElementById('showData').innerHTML = `Your percentage is ${perc}%.`;
     
 }
-
+ 
 const myfun1 = () => {
     let first = document.getElementById('first').value;
     document.getElementById('first').value = `${first}`*25/100;
+    document.getElementById('one').disabled = true;
 } 
 const myfun2 = () => {
     let second = document.getElementById('second').value;
     document.getElementById('second').value = `${second}`*50/100;
+    document.getElementById('two').disabled = true;
 } 
 const myfun3 = () => {
     let third = document.getElementById('third').value;
     document.getElementById('third').value = `${third}`*75/100;
+    document.getElementById('three').disabled = true;
 } 
 
